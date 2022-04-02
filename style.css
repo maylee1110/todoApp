@@ -1,0 +1,127 @@
+
+body, h1 {
+    margin: 0;
+    }
+li{
+    list-style: none;
+    
+}
+.hidden{
+    display: none;
+}
+
+img {
+    position:absolute;
+ width: 100vw;
+ height: 100vh;
+
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:100%;
+    object-fit: cover;
+    }
+
+#top-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+#weather span:last-child{
+   font-size: 0.8rem;
+}
+#container {
+   display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10vh;
+    
+}
+#greeting {
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    margin-bottom: 9px;
+}
+
+#clock {
+font-size: 4rem;
+color: aliceblue;
+text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+margin: auto;
+margin-bottom: 10px;
+}
+
+#quote{
+    text-align: center;
+    font-size: 0.8rem;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    
+}
+
+#quote p:first-child {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+#quote p:last-child{
+    margin-top: 5px;
+}
+
+#inputBox , #submit  {
+    margin-top: 2rem;
+width: 13rem;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 3px white solid;
+    background-color:transparent;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+li span {
+    color: aliceblue;
+    font-weight: 800;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+ button {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 0.6rem;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+input:focus{
+    outline: none;
+    color: aliceblue;
+}
+
+input::placeholder {
+color:rgb(255, 255, 255);
+font-size: 15px;
+text-align: center;
+}
+input::-webkit-input-placeholder {color:rgb(255, 255, 255);}
+
+
+#todoForm input{
+    text-align: center;
+    color: aliceblue;
+    width: 13rem;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 3px white solid;
+    background-color:transparent;
+    margin-top: 2.5rem;
+    
+}
+
